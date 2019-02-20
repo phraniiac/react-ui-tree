@@ -6,7 +6,7 @@ module.exports = {
     publicPath: '/example/'
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
